@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <ctype.h>
+int main() {
+    char c;
+    printf("Digite um dígito: ");
+    scanf("%c", &c);
+    if (isdigit(c)) {
+        printf("1\n");
+    } else {
+        printf("0\n");
+    }
+    return 0;
+}
