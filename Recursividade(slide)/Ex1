@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <locale.h>
+
+int potencia(int base, int expoente) {
+  if (expoente == 0) {
+    return 1;
+  } else {
+    return base * potencia(base, expoente - 1);
+  }
+}
+int main() {
+  setlocale(LC_ALL, "Portuguese");
+  int base, expoente;
+  printf("Informe a base: ");
+  scanf("%d", &base);
+  printf("Informe o expoente: ");
+  scanf("%d", &expoente);
+  printf("O resultado da potência é: %d\n", potencia(base, expoente));
+  return 0;
+}
