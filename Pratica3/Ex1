@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main() {
+    int limite, i, n, f;
+    printf("Informe o limite: ");
+    scanf("%d", &limite);
+    // Versão não recursiva
+    printf("Versão não recursiva:\n");
+    for (i = 0; i <= limite; i++) {
+        if (i % 2 == 1) {
+            f = i / 2 + 1;
+        } else {
+            f = -i / 2;
+        }
+        printf("[%d, %d]\n", i, f);
+    }
+    // Versão recursiva
+    printf("\nVersão recursiva:\n");
+    for (i = 0; i <= limite; i++) {
+        f = f_recursiva(i);
+        printf("[%d, %d]\n", i, f);
+    }
+    return 0;
+}
+int f_recursiva(int n) {
+    if (n == 0) {
+        return 0;
+    } else if (n % 2 == 1) {
+        return n / 2 + 1;
+    } else {
+        return -n / 2;
+    }
+}
