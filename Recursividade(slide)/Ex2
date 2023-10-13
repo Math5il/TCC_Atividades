@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int somaNaturais(int n) {
+  if (n == 0) {
+    return 0;
+  } else {
+    return n + somaNaturais(n - 1);
+  }
+}
+int main() {
+  setlocale(LC_ALL, "Portuguese");
+  int n;
+  printf("Informe o valor de n: ");
+  scanf("%d", &n);
+  printf("A soma dos primeiros %d números naturais é: %d\n", n, somaNaturais(n));
+  return 0;
+}
