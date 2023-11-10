@@ -1,0 +1,10 @@
+Conjuntos próprios de A:
+{ 1 }
+{ 2 }
+Conjuntos próprios de B:
+{ 3 4 }
+{ 3 5 }
+{ 3 }
+{ 4 5 }
+{ 4 }
+{ 5 }

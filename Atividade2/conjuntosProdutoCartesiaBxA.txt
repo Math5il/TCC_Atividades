@@ -1,0 +1,33 @@
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
+Produto Cartesiano B x A:
+(10, 1) (10, 2) (10, 3) 
+(20, 1) (20, 2) (20, 3) 
