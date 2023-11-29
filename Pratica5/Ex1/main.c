@@ -46,7 +46,7 @@ int verificaCadeia(char *cadeia) {
 
 int main() {
     char cadeia[100]; // Definindo um buffer para a cadeia
-    printf("Digite a cadeia(4 numeros, que podem ser 0 ou 1): ");
+    printf("Digite a cadeia(numeros, que podem ser 0 ou 1): ");
     scanf("%s", cadeia);
 
     if (verificaCadeia(cadeia)) {

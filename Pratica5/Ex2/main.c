@@ -20,7 +20,7 @@ int verificaCadeia(char *cadeia) {
 
 int main() {
     char cadeia[100]; // Definindo um buffer para a cadeia
-    printf("Digite a cadeia a ser verificada: ");
+    printf("Digite a cadeia a ser verificada(SEUQENCIA DE LEBRAS A E B): ");
     scanf("%s", cadeia);
 
     if (verificaCadeia(cadeia)) {
