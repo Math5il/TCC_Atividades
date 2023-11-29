@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1701299715 source:c:\users\jessi\onedrive\documentos\ciência da computação\4º-periodo\teoria da computação e compiladores\tcc_atividades\pratica5\ex2\main.c
+	<stdio.h>
+	<string.h>
+

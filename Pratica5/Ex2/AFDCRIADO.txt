@@ -1,0 +1,35 @@
+O AFD terá os seguintes estados:
+
+Estado inicial (q0)
+Estado após ler um 'a' sem um 'a' anterior (q1)
+Estado após ler um 'b' (q2)
+Estado após ler um 'a' com um 'a' anterior (q3)
+As transições do AFD são definidas da seguinte maneira:
+
+A partir do estado q0:
+
+Se ler 'a', vai para q1.
+Se ler 'b', permanece em q0.
+A partir do estado q1:
+
+Se ler 'b', vai para q2.
+Se ler 'a', vai para q3.
+A partir do estado q2:
+
+Se ler 'a', vai para q3.
+Se ler 'b', permanece em q2.
+A partir do estado q3:
+
+Seja qual for o próximo símbolo, permanece em q3.
+
+Estado inicial: q0
+Estado final: q0, q1, q2
+
+Transições:
+q0 --(b)--> q0
+q0 --(a)--> q1
+q1 --(b)--> q2
+q1 --(a)--> q3
+q2 --(b)--> q2
+q2 --(a)--> q3
+q3 --(a ou b)--> q3

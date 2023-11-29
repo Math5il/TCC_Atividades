@@ -1,0 +1,26 @@
+Esta expressão regular indica que a linguagem deve conter exatamente a sequência "0110".
+
+O AFD terá 5 estados:
+
+Estado inicial (q0)
+Estado após ler '0' (q1)
+Estado após ler '01' (q2)
+Estado após ler '011' (q3)
+Estado final (q4)
+As transições do AFD são definidas da seguinte maneira:
+
+Ao ler '0' a partir de q0, vai para q1.
+Ao ler '1' a partir de q1, vai para q1 (se mantém no estado).
+Ao ler '1' a partir de q1, vai para q2.
+Ao ler '0' a partir de q2, vai para q3.
+Qualquer símbolo após q3 leva ao estado de rejeição (um loop para si mesmo).
+
+Estado inicial: q0
+Estado final: q4
+
+Transições:
+q0 --(0)--> q1
+q1 --(1)--> q2
+q2 --(1)--> q2
+q2 --(0)--> q3
+q3 --(0 ou 1)--> Rejeição
