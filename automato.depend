@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1701372656 source:c:\temp\linguagem-c\automato\main.c
+	<stdio.h>
+	<string.h>
+
