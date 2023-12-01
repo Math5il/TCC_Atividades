@@ -20,20 +20,20 @@ int afd(char *str) {
     }
 
     if (state == 2)
-        return 1; // Aceita a palavra
+        return 1; // Aceita a sequência
     else
-        return 0; // Não aceita a palavra
+        return 0; // Não aceita a sequência
 }
 
 int main() {
     char str[100];
-    printf("Digite a palavra: ");
+    printf("Digite uma sequência de 0 e 1: ");
     scanf("%s", str);
 
     if (afd(str))
-        printf("A palavra '%s' é aceita.\n", str);
+        printf("A sequência '%s' é aceita.\n", str);
     else
-        printf("A palavra '%s' nao é aceita.\n", str);
+        printf("A sequência '%s' nao é aceita.\n", str);
 
     return 0;
 }
