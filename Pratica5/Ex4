@@ -30,6 +30,7 @@ Estado transicao(Estado estado, char entrada) {
 
 int main() {
     char entrada[100];
+    printf("Digite uma frequência.\n");
     scanf("%s", entrada);
     int i;
     Estado estado = L0;
